@@ -1,0 +1,33 @@
+.table3{
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: grey;
+}
+
+.table3 {
+    width: 100%;
+    table-layout: fixed; 
+  }
+  
+  .table3 th, .table3 td {
+    padding: 8px; 
+    text-align: left; 
+    vertical-align: middle;
+  }
+  
+  .table3 button {
+    margin: 0; 
+    padding: 6px 12px; 
+    /* Smooth transitions */
+    transition: background-color 0.2s, transform 0.2s; 
+  }
+  
+  .table3 button:focus {
+    outline: none; 
+  }
+  
+  .table3 button:active {
+    transform: scale(0.98); 
+  }
+  
+  
